@@ -1,4 +1,4 @@
-package com.neighborly.backend.dtos;
+package com.neighborly.backend.dtos.User;
 
 import lombok.Data;
 

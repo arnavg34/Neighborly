@@ -1,9 +1,9 @@
 package com.neighborly.backend.controllers;
 
 
-import com.neighborly.backend.dtos.RegisterUserRequest;
-import com.neighborly.backend.dtos.UpdateUserRequest;
-import com.neighborly.backend.dtos.UserDto;
+import com.neighborly.backend.dtos.User.RegisterUserRequest;
+import com.neighborly.backend.dtos.User.UpdateUserRequest;
+import com.neighborly.backend.dtos.User.UserDto;
 import com.neighborly.backend.exceptions.UserAlreadyExistsException;
 import com.neighborly.backend.exceptions.UserNotFoundException;
 import com.neighborly.backend.mappers.UserMapper;
