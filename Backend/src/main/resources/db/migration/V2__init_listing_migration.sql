@@ -6,5 +6,5 @@ CREATE TABLE listing (
                          user_id UUID NOT NULL,
                          created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
-                         CONSTRAINT fk_listing_user FOREIGN KEY (user_id) REFERENCES "user"(id)
+                         CONSTRAINT fk_listing_user FOREIGN KEY (user_id) REFERENCES users(id)
 );
